@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Image Viewer
+</name>
+</assembly>
+<members>
+<member name="T:Image_Viewer.App">
+<summary>
+App
+</summary>
+</member>
+<member name="M:Image_Viewer.App.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:Image_Viewer.App.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:Image_Viewer.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:Image_Viewer.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>
