@@ -13,3 +13,12 @@ I:\Information\Work Space\Image Viewer\Image Viewer\obj\Debug\Image Viewer.vbpro
 I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\obj\Debug\Image Viewer.exe
 I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\obj\Debug\Image Viewer.xml
 I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\obj\Debug\Image Viewer.pdb
+I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\bin\Debug\Image Viewer.exe
+I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\bin\Debug\Image Viewer.pdb
+I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\bin\Debug\Image Viewer.xml
+I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\obj\Debug\Image Viewer.vbprojResolveAssemblyReference.cache
+I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\obj\Debug\MainWindow.baml
+I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\obj\Debug\MainWindow.g.vb
+I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\obj\Debug\App.g.vb
+I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\obj\Debug\Image Viewer_MarkupCompile.cache
+I:\Information\Work Space\Adi Repository\Experiments\Image Viewer\Image Viewer\obj\Debug\Image Viewer.g.resources

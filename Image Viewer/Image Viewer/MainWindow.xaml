@@ -3,7 +3,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	x:Class="MainWindow"
 	x:Name="Window"
-	Title="MainWindow"
+	Title="AIV"
 	Width="640" Height="480">
 	<Window.Resources>
 		<Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
@@ -19,7 +19,7 @@
 									<SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="1.25"/>
 								</DoubleAnimationUsingKeyFrames>
 							</Storyboard>
-							<Storyboard x:Key="Storyboard_Copy1">
+							<Storyboard x:Key="Storyboard2">
 								<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="grid">
 									<SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
 								</DoubleAnimationUsingKeyFrames>
@@ -45,7 +45,7 @@
 							<Trigger Property="IsDefaulted" Value="True"/>
 							<Trigger Property="IsMouseOver" Value="True">
 								<Trigger.ExitActions>
-									<BeginStoryboard x:Name="Storyboard_Copy1_BeginStoryboard" Storyboard="{StaticResource Storyboard_Copy1}"/>
+									<BeginStoryboard x:Name="Storyboard2_BeginStoryboard" Storyboard="{StaticResource Storyboard2}"/>
 								</Trigger.ExitActions>
 								<Trigger.EnterActions>
 									<BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
@@ -71,7 +71,7 @@
 									<SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="1.25"/>
 								</DoubleAnimationUsingKeyFrames>
 							</Storyboard>
-							<Storyboard x:Key="Storyboard_Copy1">
+							<Storyboard x:Key="Storyboard2">
 								<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="grid">
 									<SplineDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
 								</DoubleAnimationUsingKeyFrames>
@@ -97,7 +97,7 @@
 							<Trigger Property="IsDefaulted" Value="True"/>
 							<Trigger Property="IsMouseOver" Value="True">
 								<Trigger.ExitActions>
-									<BeginStoryboard x:Name="Storyboard_Copy1_BeginStoryboard" Storyboard="{StaticResource Storyboard_Copy1}"/>
+									<BeginStoryboard x:Name="Storyboard2_BeginStoryboard" Storyboard="{StaticResource Storyboard2}"/>
 								</Trigger.ExitActions>
 								<Trigger.EnterActions>
 									<BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
@@ -124,12 +124,12 @@
 				<ContentControl x:Name="ImgContentCtrl" Height="371" Width="602" Canvas.Left="0" Canvas.Top="0">
 					<Grid x:Name="ImgGrid">
 						<Image x:Name="ImgObject"/>
-						<Thumb x:Name="ImgThumb" Opacity="0" DragDelta="ImgThumb_DragDelta" MouseWheel="ImgThumb_MouseWheel"/>
+						<Thumb x:Name="Img" Opacity="0" DragDelta="Img_DragDelta" MouseWheel="Img_MouseWheel"/>
 					</Grid>
 				</ContentControl>
 			</Canvas>
 		</Viewbox>
 		<Button x:Name="OpenButton" Content="Button" HorizontalAlignment="Left" Height="36" Margin="34,0,0,8" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Bottom" Width="40" ToolTip="Open File" Click="OpenButton_Click"/>
-		<Button x:Name="BestFitButton" Content="Button" HorizontalAlignment="Left" Height="36" Margin="94,0,0,11" Style="{DynamicResource ButtonStyle2}" VerticalAlignment="Bottom" Width="40" ToolTip="Best Fit" Click="BestFitButton_Click"/>
+		<Button x:Name="BestFitButton" Content="Button" HorizontalAlignment="Left" Height="36" Margin="94,0,0,11" Style="{DynamicResource ButtonStyle1}" VerticalAlignment="Bottom" Width="40" ToolTip="Best Fit" Click="BestFitButton_Click"/>
 	</Grid>
 </Window>
